@@ -8,6 +8,8 @@ interpret_logit(model)
 }
 \arguments{
 \item{model}{An outcome of a logistic regression model.}
+
+\item{term}{Estimates of a logistic regression model.}
 }
 \value{
 A new column named "likelihood" is added to the the logistic regression model outcome.

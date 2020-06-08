@@ -1,6 +1,7 @@
 #' Recalculate logistic model estimates in percentage terms to help interpretation
 #'
 #' @param model An outcome of a logistic regression model.
+#' @param term Estimates of a logistic regression model.
 #' @return A new column named "likelihood" is added to the the logistic regression model outcome.
 
 interpret_logit <- function(model){
