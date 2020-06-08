@@ -1,6 +1,6 @@
 Package: kimtools
 Type: Package
-Title: This package contains a collection of functions that Jae Yeon Kim developed for data wrangling, analysis, and visualization.
+Title: This package contains a collection of functions that Jae Yeon Kim developed for data wrangling, analysis, and visualization
 Version: 0.1.0
 Authors@R: person("Jae Yeon", "Kim", email = "jaeyeonkim@berkeley.edu", role = "cre")
 Maintainer: Jae Yeon Kim <jaeyeonkim@berkeley.edu>
