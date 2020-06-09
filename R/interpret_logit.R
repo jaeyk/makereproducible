@@ -2,6 +2,8 @@
 #'
 #' @param model An outcome of a logistic regression model.
 #' @return A new column named "likelihood" is added to the the logistic regression model outcome.
+#'
+#' @export
 
 interpret_logit <- function(model){
 
