@@ -2,6 +2,8 @@
 
 # kimtools
 
+File an [issue](https://github.com/jaeyk/kimtools/issues) if you have problems, questions or suggestions.
+
 ## Installation
 
 ```r
