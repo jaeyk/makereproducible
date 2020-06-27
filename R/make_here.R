@@ -15,14 +15,14 @@ make_here <- function(filepath){
   # Extract the file name
   filename <- listed[[1]][length(listed[[1]])]
   
-  print(paste("File name:", filename))
+  message(paste("File name:", filename))
   
   # Extract the subdirectory name
   dirname <- listed[[1]][length(listed[[1]]) - 1]
 
-  print(paste("Subdirectory name:", dirname))
+  message(paste("Subdirectory name:", dirname))
   
   # Output
-  here(dirname, filename)
+  return(here(dirname, filename))
 
 }
