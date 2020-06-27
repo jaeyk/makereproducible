@@ -14,12 +14,12 @@ make_here <- function(filepath){
   # Extract the filename
   filename <- parsed_path[[1]][length(parsed_path[[1]])]
   
-  print("File name:", filename)
+  paste("File name:", filename)
   
   # Extract the directory name
   dirname <- parsed_path[[1]][length(parsed_path[[1]]) - 1]
 
-  print("Subdirectory name:", dirname)
+  paste("Subdirectory name:", dirname)
   
   # Output
   here(dirname, filename)
