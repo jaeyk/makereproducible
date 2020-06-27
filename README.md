@@ -52,5 +52,5 @@ read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"
 - I assume that you did [one of the followings](https://github.com/jennybc/here_here#the-fine-print):
   - Had a checkout from a version control system like Git (e.g., You have a subdirectory named `.git`.)
   - Made your project an RStudio project. (You have a file named something like `your_project.Rproj` in the main project directory.)
-  - Put a file named `.here` in the main project directory (minimal effort).
+  - Put an empty file named `.here` in the main project directory (minimal effort).
 - `here::dr_here()` helps to check whether these two conditions were met. If setup correclty, you should be able to see something like the following: `here() starts at [your main project directory], because it [satisfies one of the conditions listed above].`
