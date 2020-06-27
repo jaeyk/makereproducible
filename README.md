@@ -15,7 +15,7 @@ File an [issue](https://github.com/jaeyk/makereproducible/issues) if you have pr
 ## Install the current development version from GitHub
 
 devtools::install_github("jaeyk/kimtools",
-        dependencies = TRUE))
+        dependencies = TRUE)
 ```
 
 ## Usage
