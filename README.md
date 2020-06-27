@@ -49,7 +49,7 @@ read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"
 **Only two conditions** are needed to make the `make_here()` function work.
 
 - I assume that you created a main directory for your project (e.g., `your_project`) and divided different types of files into different subdirectories (`data`, `R`, etc.).
-- I assume that you did [one of the followings](https://github.com/jennybc/here_here#the-fine-print):
+- I assume that you did [one of the followings](https://github.com/jennybc/here_here#the-fine-print) required by `here` package:
   - Had a checkout from a version control system like Git (e.g., You have a subdirectory named `.git`.)
   - Made your project an RStudio project. (You have a file named something like `your_project.Rproj` in the main project directory.)
   - Put an empty file named `.here` in the main project directory (minimal effort).
