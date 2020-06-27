@@ -23,6 +23,6 @@ make_here <- function(filepath){
   message(paste("Subdirectory name:", dirname))
   
   # Output
-  return(here(dirname, filename))
+  here(dirname, filename)
 
 }
