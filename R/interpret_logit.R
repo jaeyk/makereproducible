@@ -12,7 +12,7 @@ interpret_logit <- function(model){
   control <- exp(intercept) / (1 + exp(intercept))
 
   # Likelihood
-  model <- model %>% filter(term != "(Intercept)")
+  model <- subset(model, term != "(Intercept)")
 
   model$likelihood <- (exp(model$estimate) / (1 - control + (control * exp(model$estimate))))
 

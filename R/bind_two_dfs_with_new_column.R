@@ -7,6 +7,8 @@
 #' @param value2 A value that indicates data.frame2 in the new column.
 #' @return A combined dataframe which has a new column.
 #'
+#' @importFrom dplyr bind_rows
+#' @importFrom dplyr mutate
 #' @export
 
 bind_two_dfs_with_new_column <- function(df1, df2, new_column, value1, value2){
