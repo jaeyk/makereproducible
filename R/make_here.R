@@ -8,19 +8,19 @@
 
 make_here <- function(filepath){
 
-  # Split the filepath
+  # Split the file path
   listed <- strsplit(x = filepath, 
                           split = "[/]")
 
-  # Extract the filename
+  # Extract the file name
   filename <- listed[[1]][length(listed[[1]])]
   
-  paste("File name:", filename)
+  print(paste("File name:", filename))
   
-  # Extract the directory name
+  # Extract the subdirectory name
   dirname <- listed[[1]][length(listed[[1]]) - 1]
 
-  paste("Subdirectory name:", dirname)
+  print(paste("Subdirectory name:", dirname))
   
   # Output
   here(dirname, filename)
