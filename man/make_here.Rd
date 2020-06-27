@@ -2,7 +2,7 @@
 % Please edit documentation in R/make_here.R
 \name{make_here}
 \alias{make_here}
-\title{make_here saves typing time to parse a relative or absolute file path into here function arguments}
+\title{make_here saves typing time to turn a relative or absolute file path into tnto the arguments in the here function}
 \usage{
 make_here(filepath)
 }
@@ -13,5 +13,5 @@ make_here(filepath)
 A specified here function
 }
 \description{
-make_here saves typing time to parse a relative or absolute file path into here function arguments
+make_here saves typing time to turn a relative or absolute file path into tnto the arguments in the here function
 }
