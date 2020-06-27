@@ -46,7 +46,7 @@ read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"
 
 ## Instructions
 
-**Only two conditions** are needed to make this function work.
+**Only two conditions** are needed to make the `make_here()` function work.
 
 - I assume that you created a main directory for your project (e.g., `your_project`) and divided different types of files into different subdirectories (`data`, `R`, etc.).
 - I assume that you did [one of the followings](https://github.com/jennybc/here_here#the-fine-print):
