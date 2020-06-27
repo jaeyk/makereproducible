@@ -44,7 +44,7 @@ read_csv("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt")
 read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"))
 ```
 
-### Instructions
+## Instructions
 
 **Only two conditions** are needed to make this function work.
 
