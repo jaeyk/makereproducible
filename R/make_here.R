@@ -1,4 +1,4 @@
-#' make_here saves typing time to parse a relative or absolute file path into here function arguments
+#' make_here saves typing time to turn a relative or absolute file path into tnto the arguments in the here function 
 #'
 #' @param filepath A relative or absolute file path
 #'
@@ -9,15 +9,16 @@
 make_here <- function(filepath){
 
   # Split the filepath
-  parsed_path <- strsplit(filepath, split = "[/]")
+  listed <- strsplit(x = filepath, 
+                          split = "[/]")
 
   # Extract the filename
-  filename <- parsed_path[[1]][length(parsed_path[[1]])]
+  filename <- listed[[1]][length(listed[[1]])]
   
   paste("File name:", filename)
   
   # Extract the directory name
-  dirname <- parsed_path[[1]][length(parsed_path[[1]]) - 1]
+  dirname <- listed[[1]][length(listed[[1]]) - 1]
 
   paste("Subdirectory name:", dirname)
   
