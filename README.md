@@ -39,9 +39,3 @@ read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"
 ```
 
 There exists **only one condition** to make this function work. I assume that you created a main directory for your project (e.g., `your_project`) and divided different types of files into different subfolders (`data`, `R`, etc.).
-
-## Description
-
-- I developed this package because I am lazy. I found that creating a personal R package is an efficient way to collect, reuse, and refine my code snippets and distribute them.
-
-- The package is written by following Hadley Wickam and Jennifer Bryan's book on [R package development](http://r-pkgs.had.co.nz/). I also found Karl Broman's [R package primer](https://kbroman.org/pkg_primer/) helpful.
