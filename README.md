@@ -16,6 +16,8 @@ File an [issue](https://github.com/jaeyk/makereproducible/issues) if you have pr
 
 devtools::install_github("jaeyk/makereproducible",
         dependencies = TRUE)
+        
+library(makereproducible)
 ```
 
 ## Usage
