@@ -2,3 +2,7 @@
 
 export(bind_two_dfs_with_new_column)
 export(interpret_logit)
+export(make_here)
+importFrom(dplyr,bind_rows)
+importFrom(dplyr,mutate)
+importFrom(here,here)
