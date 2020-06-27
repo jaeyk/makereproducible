@@ -18,7 +18,9 @@ devtools::install_github("jaeyk/kimtools",
 
 ### `make_here`
 
-Okay. You learned that [creating self-contained projects is great](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) to increase research reproducibility and make your life easier. To make a project self-contained, one of the things you need to do is [**STOP** using `setwd()` and **START** using alternatives like `here()`](https://github.com/jennybc/here_here). The problem is people, including and especially me, are lazy. We know the best practice but we don't follow it. Let's say you already completed your data analysis, but you want to make your project self-contained before sharing it. The `make_here` nudges you to do that by saving typing time.
+Okay. You learned that [creating self-contained projects is great](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) to increase research reproducibility and make your life easier. To make a project self-contained, one of the things you need to do is [**STOP** using `setwd()` and **START** using alternatives like `here()`](https://github.com/jennybc/here_here). The problem is people, including and especially me, are lazy. We know the best practice but we don't follow it. Let's say you already completed your data analysis, but you want to make your project self-contained before sharing it.
+
+The `make_here` helps you to make your old project self-contained by saving typing time to turn the relative and absolute path in your R code into the arguments in the `here()` function.
 
 ```
 # Not self-contained because this absolute path only works in my laptop!
