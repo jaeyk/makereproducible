@@ -2,7 +2,7 @@
 
 # makereproducible
 
-An R Package for Making Your Project Computationally Reproducible Before Sharing it
+An R Package for Making a Project Computationally Reproducible Before Sharing it
 
 Author: [Jae Yeon Kim](https://jaeyk.github.io/)
 
