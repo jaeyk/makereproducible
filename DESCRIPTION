@@ -14,5 +14,5 @@ Imports:
   magrittr (>= 1.5),
   dplyr (>= 0.9.0),
   tidyr (>= 1.1.0),
-  here (>= 0.1)
+  here
 RoxygenNote: 7.1.0

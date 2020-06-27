@@ -5,7 +5,27 @@
 ## Installation
 
 ```r
-devtools::install_github("jaeyk/kimtools")
+
+## Install the current development version from GitHub
+
+devtools::install_github("jaeyk/kimtools",
+        dependencies = TRUE))
+```
+
+## Usage
+
+### `make_here`
+
+Okay. You learned that [creating self-contained projects is great](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) to increase research reproducibility, which includes data as well as computational reproducibility, and make your life easier. To make a project self-contained, one of the things you need to do is **STOP** using `setwd()` and **START** using alternatives like `here()`. The problem is people, including and especially me, are lazy. We know we should follow this best practice, but we still don't do it. Let's say you already completed your data analysis, but you want to make your project self-contained before sharing it. The `make_here` nudges you to do that by saving typing time.
+
+```
+# Not self-contained because this absolute path only works in my laptop!
+
+read_csv("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt")
+
+# Voila! Now, the project is self-contained.
+
+read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"))
 ```
 
 ## Description
