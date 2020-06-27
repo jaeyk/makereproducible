@@ -1,8 +1,12 @@
 [![Travis build status](https://travis-ci.com/jaeyk/kimtools.svg?branch=master)](https://travis-ci.com/jaeyk/kimtools)
 
-# kimtools
+# makereproducible
 
-File an [issue](https://github.com/jaeyk/kimtools/issues) if you have problems, questions or suggestions.
+An R Package for Making Your Project Computationally Reproducible Before Sharing it
+
+Author: [Jae Yeon Kim](https://jaeyk.github.io/)
+
+File an [issue](https://github.com/jaeyk/makereproducible/issues) if you have problems, questions or suggestions.
 
 ## Installation
 
@@ -18,7 +22,7 @@ devtools::install_github("jaeyk/kimtools",
 
 ### `make_here`
 
-Okay. You learned that [creating self-contained projects is great](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) to increase research reproducibility and make your life easier. To make a project self-contained, one of the things you need to do is [**STOP** using `setwd()` and **START** using alternatives like `here()`](https://github.com/jennybc/here_here). The problem is people, including and especially me, are lazy. We know the best practice but we don't follow it.
+[Creating self-contained projects is great](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) to increase research reproducibility and make your life easier. To make a project self-contained, one of the things you need to do is [**STOP** using `setwd()` and **START** using alternatives like `here()`](https://github.com/jennybc/here_here). The problem is people, including and especially me, are lazy. We know the best practice but we don't follow it.
 
 The `make_here()` function nudges you to make your project self-contained before sharing it with other people. It does so by saving typing time to turn [the relative and absolute path](https://r4ds.had.co.nz/workflow-projects.html) in your R code into the arguments in the `here()` function.
 

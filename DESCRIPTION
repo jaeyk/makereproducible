@@ -1,4 +1,4 @@
-Package: kimtools
+Package: makereproducible
 Type: Package
 Date: 2020-06-05
 Title: Kimtools
@@ -6,7 +6,7 @@ Version: 0.1.0
 Authors@R: person("Jae Yeon", "Kim", email = "jaeyeonkim@berkeley.edu", role = c("ctb", "cre"))
 Maintainer: Jae Yeon Kim <jaeyeonkim@berkeley.edu>
 BugReports: https://github.com/jaeyk/kimtools/issues
-Description: Functions to replicate, improve, and expand Kim's data analysis. The goal of these functions is to automate boring things and simplify complex process. 
+Description: Functions to replicate, improve, and expand Kim's data analysis. The goal of these functions is to automate boring things and simplify complex process.
 Depends: R (>= 3.6)
 License: MIT + file LICENSE
 Encoding: UTF-8
