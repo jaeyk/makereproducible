@@ -6,7 +6,7 @@ Version: 0.1.0
 Authors@R: person("Jae Yeon", "Kim", email = "jaeyeonkim@berkeley.edu", role = c("ctb", "cre"))
 Maintainer: Jae Yeon Kim <jaeyeonkim@berkeley.edu>
 BugReports: https://github.com/jaeyk/kimtools/issues
-Description: Functions to increase computational reproducibility of your project before sharing it with other people.
+Description: Functions to increase computational reproducibility of a project before sharing it with other people.
 Depends: R (>= 3.6)
 License: MIT + file LICENSE
 Encoding: UTF-8
