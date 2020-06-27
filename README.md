@@ -20,7 +20,7 @@ devtools::install_github("jaeyk/kimtools",
 
 Okay. You learned that [creating self-contained projects is great](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) to increase research reproducibility and make your life easier. To make a project self-contained, one of the things you need to do is [**STOP** using `setwd()` and **START** using alternatives like `here()`](https://github.com/jennybc/here_here). The problem is people, including and especially me, are lazy. We know the best practice but we don't follow it.
 
-The `make_here()` nudges you to make your old project self-contained before sharing it with other people. It does so by saving typing time to turn the relative and absolute path in your R code into the arguments in the `here()` function.
+The `make_here()` nudges you to make your old project self-contained before sharing it with other people. It does so by saving typing time to turn [the relative and absolute path](https://r4ds.had.co.nz/workflow-projects.html) in your R code into the arguments in the `here()` function.
 
 To learn how to use it, see the examples below.
 
