@@ -26,7 +26,7 @@ library(makereproducible)
 
 [Creating self-contained projects is great](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/) to increase research reproducibility and make your life easier. To make a project self-contained, one of the things you need to do is [**STOP** using `setwd()` and **START** using alternatives like `here()`](https://github.com/jennybc/here_here). The problem is people, including, and especially me, are lazy. We know the best practice, but we don't follow it.
 
-The `make_here()` function nudges you to make your project self-contained before sharing it with other people. It does this by saving typing time to turn [the relative and absolute path](https://r4ds.had.co.nz/workflow-projects.html) in your R code into the arguments in the `here()` function.
+The `make_here()` function nudges you to make your project self-contained before sharing it with other people. It does this by saving typing time to turn [the relative or absolute path](https://r4ds.had.co.nz/workflow-projects.html) in your R code into the arguments in the `here()` function.
 
 To learn how to use it, see the examples below.
 
@@ -48,7 +48,7 @@ read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"
 
 **Only two conditions** are needed to make the `make_here()` function work.
 
-- I assume that you created a main directory for your project (e.g., `your_project`) and divided different types of files into different subdirectories (`data`, `R`, etc.).
+- I assume that you created a main directory for your project (e.g., `foo`) and divided different types of files into different subdirectories (`data`, `R`, etc.).
 - I assume that you did [one of the followings](https://github.com/jennybc/here_here#the-fine-print) required by `here` package:
   - Had a checkout from a version control system like Git. (e.g., You have a subdirectory named `.git`.)
   - [Made your project an RStudio project.](https://r4ds.had.co.nz/workflow-projects.html) (**strongly recommended**)
