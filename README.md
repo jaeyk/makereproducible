@@ -2,7 +2,7 @@
 
 # makereproducible
 
-An R Package for Making Your Project Computationally Reproducible Before Sharing it
+An R Package for Making a Project Computationally Reproducible Before Sharing it
 
 Author: [Jae Yeon Kim](https://jaeyk.github.io/)
 
@@ -42,4 +42,4 @@ read_csv("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt")
 read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"))
 ```
 
-There exists **only one condition** to make this function work. I assume that you created a main directory for your project (e.g., `your_project`) and divided different types of files into different subfolders (`data`, `R`, etc.).
+There exists **only one condition** to make this function work. I assume that you created a main directory for your project (e.g., `your_project`) and divided different types of files into different subdirectories (`data`, `R`, etc.).
