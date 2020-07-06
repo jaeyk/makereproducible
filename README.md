@@ -54,3 +54,12 @@ read_csv(make_here("/home/jae/validating-two-linked-fates/raw_data/sub-data.txt"
   - [Made your project an RStudio project.](https://r4ds.had.co.nz/workflow-projects.html) (**strongly recommended**)
   - Put an empty file named `.here` in the main project directory (**minimal effort**).
 - `here::dr_here()` helps to check whether these two conditions were met. If setup correclty, you should be able to see something like the following: `here() starts at [your main project directory], because it [satisfies one of the conditions listed above].`
+
+## How to cite
+
+If you would like to cite, please do something like the following:
+
+```
+Jae Yeon Kim. (2020). makereproducible. R package version 0.1.0. Retrieved from https://github.com/jaeyk/makereproducible
+```
+
