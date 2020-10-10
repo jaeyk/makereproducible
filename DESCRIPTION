@@ -1,7 +1,7 @@
 Package: makereproducible
 Type: Package
 Date: 2020-06-05
-Title: makereproducible
+Title: Making a project computationally reproducible 
 Version: 0.1.0
 Authors@R: person("Jae Yeon", "Kim", email = "jaeyeonkim@berkeley.edu", role = c("ctb", "cre"))
 Maintainer: Jae Yeon Kim <jaeyeonkim@berkeley.edu>
